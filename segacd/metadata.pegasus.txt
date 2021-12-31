@@ -1,8 +1,7 @@
 collection: Sega CD
 shortname: segacd
 extensions: 7z, zip, bin, chd, cue, iso
-launch: am start
-  --user 0
+launch: am start --user 0
   -n com.retroarch/.browser.retroactivity.RetroActivityFuture
   -e ROM "{file.path}"
   -e LIBRETRO /data/data/com.retroarch/cores/genesis_plus_gx_libretro_android.so
@@ -15,3 +14,4 @@ launch: am start
   -e SCREENSHOTS /storage/emulated/0/Pictures
   -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files
   --activity-clear-top
+  

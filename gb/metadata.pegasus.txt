@@ -1,17 +1,16 @@
-collection: Sony PlayStation
-shortname: psx
-extensions: cue, ccd, chd, exe, iso, m3u, pbp, toc
+collection: Game Boy/Game Boy Color
+shortname: gb
+extensions: dmg, gb, gbc, zip, 7z
 launch: am start
-  --user 0
   -n com.retroarch/.browser.retroactivity.RetroActivityFuture
-  -e ROM "{file.path}"
-  -e LIBRETRO /data/data/com.retroarch/cores/pcsx_rearmed_libretro_android.so
+  -e ROM {file.path}
+  -e LIBRETRO /data/data/com.retroarch/cores/gambatte_libretro_android.so
   -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg
   -e IME com.android.inputmethod.latin/.LatinIME
   -e DATADIR /data/data/com.retroarch
   -e APK /data/app/com.retroarch-1/base.apk
   -e SDCARD /storage/emulated/0
-  -e DOWNLOADS /storage/emulated/0/Download
-  -e SCREENSHOTS /storage/emulated/0/Pictures
   -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files
+  --activity-clear-task
   --activity-clear-top
+  --activity-no-history

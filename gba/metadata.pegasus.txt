@@ -1,14 +1,16 @@
-collection: Game Boy Advance
-shortname: gba
-extensions: 7z, zip, gba
-launch: am start --user 0
-  -n com.gpsp/com.retroarch.browser.retroactivity.RetroActivityFuture
-  -e ROM "{file.path}"
-  -e LIBRETRO /data/data/com.gpsp/cores/gpsp_libretro_android.so
-  -e CONFIGFILE /storage/emulated/0/Android/data/com.gpsp/files/retroarch.cfg
+collection: Game Boy/Game Boy Color
+shortname: gb
+extensions: dmg, gb, gbc, 7z, zip
+launch: am start
+  -n com.retroarch/.browser.retroactivity.RetroActivityFuture
+  -e ROM {file.path}
+  -e LIBRETRO /data/data/com.retroarch/cores/gambatte_libretro_android.so
+  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg
   -e IME com.android.inputmethod.latin/.LatinIME
-  -e DATADIR /data/data/com.gpsp
-  -e APK /data/app/com.gpsp-1/base.apk
+  -e DATADIR /data/data/com.retroarch
+  -e APK /data/app/com.retroarch-1/base.apk
   -e SDCARD /storage/emulated/0
-  -e EXTERNAL /storage/emulated/0/Android/data/com.gpsp/files
+  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files
+  --activity-clear-task
   --activity-clear-top
+  --activity-no-history
