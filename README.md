@@ -1,8 +1,8 @@
 # Anbernic RG552 - Pegasus metadata pack
 
-Disclaimer: I'm not responsible if you damage your RG552 in any way, this a guide exists to make it as easy as possible to use your RG552 with the Pegasus Frontend, in my opinion one of the best Frontend Emulators out there but you always need to be careful.
+Disclaimer: I'm not responsible if you damage your RG552 in any way, this a guide that exists to make it as easy as possible to use your RG552 with the Pegasus Frontend, in my opinion one of the best Frontend Emulators out there but you always need to be careful.
 
-The bad thing about Pegasus is that you need to make a lot of configuration, I'm trying to make this pack as plug & play as possible.
+The bad thing about Pegasus is that you need to make a lot of configuration, I'm trying to make this pack as plug & play as possible so you don't have to tinker with config files.
 
 This pack contains metadata configuration for the following systems and emulators.
 
@@ -52,7 +52,7 @@ You can check gameOS website in [here] https://github.com/PlayingKarrde/gameOS/
 
 - Download the contents on the Main Branch and copy everything to your SD CARD.
 - Install Pegasus from the apk in the SD card
-- Copy the contents of \-internal to your Android Internal Storage so we can configure Pegasus and Retroarch
+- Copy the contents of \-internal to your Android Internal Storage so both Pegasus and Retroarch are autoconfigured
 - Scrap your roms
 - Enjoy
 
@@ -99,7 +99,7 @@ Unzip it in your computer. This folder should look like this:
   pegasus-fe_alpha15-85-gfff1a5b2_android.apk
 ```
 
-Insert your SD Card in your computer copy the folders there, and go to the next step.
+Insert your SD Card in your computer and copy the folders there.
 
 If your RG552 came with roms just merge the folders in the 64GB sd card, that way you can keep your current roms and just add the new configuration files.
 
@@ -107,7 +107,7 @@ If your RG552 came with roms just merge the folders in the 64GB sd card, that wa
 
 If your RG552 came with games you can skip this step and go right to the next.
 
-Now that you have both the Theme and the Metadata pack in your RG552 lets copy some games, just drag and drop the rom files in every system folder ( we recommend using no intro roms found on archive.org )
+Now that you have the Metadata pack in your RG552 lets copy some games, just drag and drop the rom files in every system folder ( we recommend using no intro roms found on archive.org )
 
 Example: I want to transfer **Legend of Zelda, The - A Link to the Past (USA).zip** for Super Nes, just drag and drop the file to sdcard/snes/, repeat the process with the rest of the systems you want to play.
 
@@ -121,13 +121,15 @@ Copy the contents of your **-internal** folder in the SD ard to your Android int
 
 ### 5 Making it pretty
 
-### Option 1 Pre Scraped Assets
+### Option 1 - Pre Scraped Assets
 
-I'll be adding some pre scrapped assets for all the systems in a few days..
+I've added some pre scrapped assets, if your romset comes from a no intro set then you are good to go, no need for scrapping ;)
 
-### Scraping your own assets
+You can start playing your games!
 
-If the previous assets doesn't meet your needs, you need to scrap your own, for that we are going to be using [Skraper](http://skraper.net), for that you need to register yourself in [Screen Scrapper](https://www.screenscraper.fr/membreinscription.php)
+### Option 2 - Scraping your own assets
+
+If the built in assets doesn't meet your needs, you need to scrap your own, for that we are going to be using [Skraper](http://skraper.net), for that you need to register yourself in [Screen Scrapper](https://www.screenscraper.fr/membreinscription.php)
 
 **Note to Mac users**
 
