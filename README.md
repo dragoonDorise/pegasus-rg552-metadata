@@ -38,14 +38,6 @@ This pack contains metadata configuration for the following systems and emulator
 | Super Nintendo            | Retroarch 1.9 Snes9x Current core    |
 | Wonderswan & Color        | Retroarch 1.9 Beetle Cygne core      |
 
-**Pegasus & gameOS theme for Pegasus disclaimer**
-
-I'm providing both Pegasus installer and gameOS theme so it's easier for you to setup everything.
-
-You can check Pegasus website in [here] https://pegasus-frontend.org/#downloads
-
-You can check gameOS website in [here] https://github.com/PlayingKarrde/gameOS/
-
 # Guide for newbies
 
 ## TLDR version.
