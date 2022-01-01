@@ -1,5 +1,5 @@
 collection: Wonderswan
-shortname: wswan
+shortname: wonderswan
 extensions: 7z, zip, ws, wsc, pc2
 launch: am start
 -n com.retroarch/.browser.retroactivity.RetroActivityFuture

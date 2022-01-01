@@ -1,4 +1,4 @@
-collection: PC Engine/SuperGrafx/CD
+collection: PC Engine
 shortname: pcengine
 extensions: bin, ccd, chd, cue, img, iso, pce, zip, 7z
 launch: am start
