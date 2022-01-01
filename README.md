@@ -59,7 +59,12 @@ First you'll need to enable installing APK packages, which can be done in your R
 You can download the latest pack including Scrapped art for no intro games so you don't need to scrape your roms or download a clean pack.
 
 Option a) [Pegasus Frontend metadata Pack with pre scrapped art - Several GBs](https://github.com/dragoonDorise/pegasus-rg552-metadata/archive/main-artwork.zip)
+
 Option b) [Pegasus Frontend metadata Pack](https://github.com/dragoonDorise/pegasus-rg552-metadata/archive/main.zip)
+
+Both options include my Pegasus Theme RP-Switch optimised for the RG552 display:
+
+<img src="https://raw.githubusercontent.com/dragoonDorise/RP-Switch/main/screenshots/RG552.jpg">
 
 Unzip it in your computer. This folder should look like this:
 
