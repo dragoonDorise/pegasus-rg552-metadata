@@ -1,5 +1,5 @@
 collection: Sega 32X
-shortname: megadrive
+shortname: sega32x
 extensions: 32x, 68k, bin, cue, gen, iso, md, smd, sms, 7z, zip
 launch: am start
   -n com.retroarch/.browser.retroactivity.RetroActivityFuture

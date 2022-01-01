@@ -1,4 +1,4 @@
-collection: DOOM Game Engine
+collection: DooM 
 shortname: doom
 extensions: iwad, pwad, wad, zip, 7z
 launch: am start

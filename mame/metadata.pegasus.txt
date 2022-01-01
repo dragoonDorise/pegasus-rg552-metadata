@@ -1,4 +1,4 @@
-collection: Arcade (various)
+collection: Mame
 shortname: mame
 extensions: 7z, chd, zip
 launch: am start

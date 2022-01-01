@@ -1,10 +1,10 @@
-collection: Game Boy/Game Boy Color
-shortname: gb
-extensions: dmg, gb, gbc, 7z, zip
+collection: Game Boy Advance
+shortname: gba
+extensions: gb, gba, gbc zip, 7z
 launch: am start
   -n com.retroarch/.browser.retroactivity.RetroActivityFuture
   -e ROM {file.path}
-  -e LIBRETRO /data/data/com.retroarch/cores/gambatte_libretro_android.so
+  -e LIBRETRO /data/data/com.retroarch/cores/mgba_libretro_android.so
   -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg
   -e IME com.android.inputmethod.latin/.LatinIME
   -e DATADIR /data/data/com.retroarch

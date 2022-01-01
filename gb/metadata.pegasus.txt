@@ -1,4 +1,4 @@
-collection: Game Boy/Game Boy Color
+collection: Game Boy
 shortname: gb
 extensions: dmg, gb, gbc, zip, 7z
 launch: am start
