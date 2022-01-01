@@ -18,6 +18,7 @@
 /storage/0000-0000/nds
 /storage/0000-0000/neogeo
 /storage/0000-0000/neogeocd
+/storage/0000-0000/ngp
 /storage/0000-0000/ngpc
 /storage/0000-0000/nes
 /storage/0000-0000/ngp
