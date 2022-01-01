@@ -54,7 +54,12 @@ This pack contains metadata configuration for the following systems and emulator
 
 First you'll need to enable installing APK packages, which can be done in your RG552 on Settings → Security → Unknown Sources, turned on.
 
-### 2 Download my latest [Pegasus Frontend metadata Pack](https://github.com/dragoonDorise/pegasus-rg552-metadata/archive/main.zip)
+### 2 Download the latest Pegasus Frontend metadata Pack
+
+You can download the latest pack including Scrapped art for no intro games so you don't need to scrape your roms or download a clean pack.
+
+Option a) [Pegasus Frontend metadata Pack with pre scrapped art - Several GBs](https://github.com/dragoonDorise/pegasus-rg552-metadata/archive/main-artwork.zip)
+Option b) [Pegasus Frontend metadata Pack](https://github.com/dragoonDorise/pegasus-rg552-metadata/archive/main.zip)
 
 Unzip it in your computer. This folder should look like this:
 
@@ -115,7 +120,7 @@ Copy the contents of your **-internal** folder in the SD ard to your Android int
 
 ### Option 1 - Pre Scraped Assets
 
-I've added some pre scrapped assets, if your romset comes from a no intro set then you are good to go, no need for scrapping ;)
+If you chose option A when downloading this Pegasus Pack and your roms comes from a no intro set then you are good to go, no need for scrapping ;)
 
 You can start playing your games!
 
