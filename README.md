@@ -121,6 +121,20 @@ Use the RG552 file browser app and navigate to your SD card and open **pegasus-f
 
 Copy the contents of your **-internal** folder in the SD ard to your Android internal storage, on the root folder where you should have a RetroArch and pegasus-frontend folders already, make sure you merge your folders so we add these files to the ones that are already on your RG552.
 
+The files inside pegasus-frontend will configure all the systems and the Theme so you can use the Frontend to launch every game with the proper emulator.
+
+The files inside Retroarch will :
+
+- Set the global aspect ratio to Core Provided
+- Set the right aspect ratio (1:1) for Handhelds & Mame Systems
+- Set the right aspect ratio (4:3 )for SNES and NES
+- Install LCD3 Shader for all Handhelds
+- Hide the load content splash screen
+- AutoSave and AutoLoad State
+- Activate Integer Scale for all systems
+
+This configuration is based on [RGC RG552 Linux Setup](https://retrogamecorps.com/2021/12/27/anbernic-rg552-linux-setup-guide/)
+
 ### 5 Making it pretty
 
 ### Option 1 - Pre Scraped Assets
